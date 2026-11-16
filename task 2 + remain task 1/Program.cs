@@ -1,4 +1,6 @@
-﻿namespace task_2___remain_task_1
+﻿using System.Net.Http.Headers;
+
+namespace task_2___remain_task_1
 {
     internal class Program
     {
@@ -71,17 +73,28 @@
             #endregion
 
             #region task1 question 13
-            // .? : check if the variable is null or not
-            // . :crash if the variable is null
-            // ! : tell the compiler to trust me 
-            Book ? book = null;
-            Console.WriteLine(book ?.Title); // null
-            Book book2 = new Book();
-            Console.WriteLine(book2.Title);
-            //draft
-            //Console.WriteLine(book!.Title); // nullreference exception
-            //Console.WriteLine(book.Title); // nullreference exception
+            //// .? : check if the variable is null or not
+            //// . :crash if the variable is null
+            //// ! : tell the compiler to trust me 
+            //Book ? book = null;
+            //Console.WriteLine(book ?.Title); // null
+            //Book book2 = new Book();
+            //Console.WriteLine(book2.Title);
+            ////draft
+            ////Console.WriteLine(book!.Title); // nullreference exception
+            ////Console.WriteLine(book.Title); // nullreference exception
 
+            #endregion
+
+            #region task1 question 14
+            //null coalesing ?? : it chek if value is null return right hand side if not left hand side 
+            Book? b1 = null;
+            Console.WriteLine(b1?.Title ?? "untitled");
+
+
+            b1 ??= new Book();
+            b1?.Title ??= "untitled"; // it will put untitle only if title was empty 
+            Console.WriteLine(b1.Title);
             #endregion
 
         }
