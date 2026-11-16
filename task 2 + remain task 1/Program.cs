@@ -50,16 +50,23 @@
             #endregion
 
             #region task1 question 11
-            //nullable : in normal i cant put null in int but in nullable i can put null in int
-            // varible.hasValue : check if the variable has value or not
-            // benfit : graduatetd year , product discount 
-            int? year = null;
-            Console.WriteLine(year.HasValue);
-            Console.WriteLine(year);
+            ////nullable : in normal i cant put null in int but in nullable i can put null in int
+            //// varible.hasValue : check if the variable has value or not
+            //// benfit : graduatetd year , product discount 
+            //int? year = null;
+            //Console.WriteLine(year.HasValue);
+            //Console.WriteLine(year);
 
-            year = 2023;
-            Console.WriteLine(year.HasValue);
-            Console.WriteLine(year);
+            //year = 2023;
+            //Console.WriteLine(year.HasValue);
+            //Console.WriteLine(year);
+
+            #endregion
+
+            #region task1 question 12
+            string ? reviewer = null;
+          
+            Console.WriteLine(reviewer==null?"Reviewer is null":reviewer);
 
             #endregion
 
