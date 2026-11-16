@@ -64,9 +64,23 @@
             #endregion
 
             #region task1 question 12
-            string ? reviewer = null;
-          
-            Console.WriteLine(reviewer==null?"Reviewer is null":reviewer);
+            //string ? reviewer = null;
+
+            //Console.WriteLine(reviewer==null?"Reviewer is null":reviewer);
+
+            #endregion
+
+            #region task1 question 13
+            // .? : check if the variable is null or not
+            // . :crash if the variable is null
+            // ! : tell the compiler to trust me 
+            Book ? book = null;
+            Console.WriteLine(book ?.Title); // null
+            Book book2 = new Book();
+            Console.WriteLine(book2.Title);
+            //draft
+            //Console.WriteLine(book!.Title); // nullreference exception
+            //Console.WriteLine(book.Title); // nullreference exception
 
             #endregion
 
