@@ -5,11 +5,15 @@
         static void Main(string[] args)
         {
             #region task1 question 5
-            int pages = 300;
-            double implicit_pages = pages;
+            //int pages = 300;
+            //double implicit_pages = pages;
             #endregion
 
-           
+            #region task1 question 6
+            double price = 49.99;
+            int explicit_price = (int)price;
+            #endregion
+
         }
     }
 }
