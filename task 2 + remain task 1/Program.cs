@@ -39,14 +39,28 @@
             #endregion
 
             #region task1 question 10
-            int copies = 100;
-            object obj = copies; 
-            int unboxedCopies = (int)obj; 
-            Console.WriteLine(obj);
-            Console.WriteLine(unboxedCopies);
+            //int copies = 100;
+            //object obj = copies; 
+            //int unboxedCopies = (int)obj; 
+            //Console.WriteLine(obj);
+            //Console.WriteLine(unboxedCopies);
 
-            //draft  Console.WriteLine(unboxedCopies.GetType());
-            //draft  Console.WriteLine(obj.GetType());
+            ////draft  Console.WriteLine(unboxedCopies.GetType());
+            ////draft  Console.WriteLine(obj.GetType());
+            #endregion
+
+            #region task1 question 11
+            //nullable : in normal i cant put null in int but in nullable i can put null in int
+            // varible.hasValue : check if the variable has value or not
+            // benfit : graduatetd year , product discount 
+            int? year = null;
+            Console.WriteLine(year.HasValue);
+            Console.WriteLine(year);
+
+            year = 2023;
+            Console.WriteLine(year.HasValue);
+            Console.WriteLine(year);
+
             #endregion
 
         }
