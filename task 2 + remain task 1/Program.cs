@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region task1 question 5
+            int pages = 300;
+            double implicit_pages = pages;
+            #endregion
+
+           
         }
     }
 }
