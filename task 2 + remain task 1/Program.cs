@@ -33,9 +33,20 @@
             #endregion
 
             #region task1 question 9
-            int pages = 456;
-            string pagesText = Convert.ToString(pages);
-            Console.WriteLine(pagesText.GetType());
+            //int pages = 456;
+            //string pagesText = Convert.ToString(pages);
+            //Console.WriteLine(pagesText.GetType());
+            #endregion
+
+            #region task1 question 10
+            int copies = 100;
+            object obj = copies; 
+            int unboxedCopies = (int)obj; 
+            Console.WriteLine(obj);
+            Console.WriteLine(unboxedCopies);
+
+            //draft  Console.WriteLine(unboxedCopies.GetType());
+            //draft  Console.WriteLine(obj.GetType());
             #endregion
 
         }
