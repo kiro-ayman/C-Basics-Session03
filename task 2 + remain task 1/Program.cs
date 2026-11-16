@@ -10,8 +10,13 @@
             #endregion
 
             #region task1 question 6
-            double price = 49.99;
-            int explicit_price = (int)price;
+            //double price = 49.99;
+            //int explicit_price = (int)price;
+            #endregion
+
+            #region task1 question 7
+            string pages = "464";
+            int converted_numbers = Convert.ToInt32(pages);
             #endregion
 
         }
