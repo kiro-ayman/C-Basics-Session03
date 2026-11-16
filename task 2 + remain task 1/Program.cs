@@ -15,8 +15,21 @@
             #endregion
 
             #region task1 question 7
-            string pages = "464";
-            int converted_numbers = Convert.ToInt32(pages);
+            //string pages = "464";
+            //int converted_numbers = Convert.ToInt32(pages);
+            #endregion
+
+            #region task1 question 8
+            string yearText = "2023";
+            int yearInt = int.Parse(yearText);
+            string badText = "asd";
+            bool isParsed = int.TryParse(badText, out int x);
+           
+
+            //wrong  isParsed ? Console.WriteLine("x") : Console.WriteLine("Conversion failed");
+
+            Console.WriteLine(isParsed ? x : "Conversion failed");
+
             #endregion
 
         }
