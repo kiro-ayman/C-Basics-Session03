@@ -20,16 +20,22 @@
             #endregion
 
             #region task1 question 8
-            string yearText = "2023";
-            int yearInt = int.Parse(yearText);
-            string badText = "asd";
-            bool isParsed = int.TryParse(badText, out int x);
-           
+            //string yearText = "2023";
+            //int yearInt = int.Parse(yearText);
+            //string badText = "asd";
+            //bool isParsed = int.TryParse(badText, out int x);
 
-            //wrong  isParsed ? Console.WriteLine("x") : Console.WriteLine("Conversion failed");
 
-            Console.WriteLine(isParsed ? x : "Conversion failed");
+            ////wrong  isParsed ? Console.WriteLine("x") : Console.WriteLine("Conversion failed");
 
+            //Console.WriteLine(isParsed ? x : "Conversion failed");
+
+            #endregion
+
+            #region task1 question 9
+            int pages = 456;
+            string pagesText = Convert.ToString(pages);
+            Console.WriteLine(pagesText.GetType());
             #endregion
 
         }
