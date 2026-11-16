@@ -87,14 +87,21 @@ namespace task_2___remain_task_1
             #endregion
 
             #region task1 question 14
-            //null coalesing ?? : it chek if value is null return right hand side if not left hand side 
-            Book? b1 = null;
-            Console.WriteLine(b1?.Title ?? "untitled");
+            ////null coalesing ?? : it chek if value is null return right hand side if not left hand side 
+            //Book? b1 = null;
+            //Console.WriteLine(b1?.Title ?? "untitled");
 
 
-            b1 ??= new Book();
-            b1?.Title ??= "untitled"; // it will put untitle only if title was empty 
-            Console.WriteLine(b1.Title);
+            //b1 ??= new Book();
+            //b1?.Title ??= "untitled"; // it will put untitle only if title was empty 
+            //Console.WriteLine(b1.Title);
+            #endregion
+
+            #region task1 question 15
+            string? name = "ahmed";
+            string confirmedName = name!;
+            
+
             #endregion
 
         }
