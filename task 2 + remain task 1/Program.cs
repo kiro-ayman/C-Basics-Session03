@@ -131,11 +131,26 @@ namespace task_2___remain_task_1
             #endregion
 
             #region task2 question 2
-            int pages = 464;
-            bool isAvailable = true;
-            if (pages > 300 && isAvailable)
-            {
-                Console.WriteLine("You can borrow this book");
+            //int pages = 464;
+            //bool isAvailable = true;
+            //if (pages > 300 && isAvailable)
+            //{
+            //    Console.WriteLine("You can borrow this book");
+            //}
+            #endregion
+
+            #region task2 question 3
+            string title = "refactoring";
+            switch(title){
+                case "clean code":
+                    Console.WriteLine("great choice ");
+                    break;
+                case "refactoring":
+                    Console.WriteLine("nice pick");
+                    break;
+                default:
+                    Console.WriteLine("never heard of it");
+                    break;
             }
             #endregion
 
