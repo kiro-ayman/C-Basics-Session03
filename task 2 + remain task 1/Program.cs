@@ -140,19 +140,26 @@ namespace task_2___remain_task_1
             #endregion
 
             #region task2 question 3
-            string title = "refactoring";
-            switch(title){
-                case "clean code":
-                    Console.WriteLine("great choice ");
-                    break;
-                case "refactoring":
-                    Console.WriteLine("nice pick");
-                    break;
-                default:
-                    Console.WriteLine("never heard of it");
-                    break;
-            }
+            //string title = "refactoring";
+            //switch(title){
+            //    case "clean code":
+            //        Console.WriteLine("great choice ");
+            //        break;
+            //    case "refactoring":
+            //        Console.WriteLine("nice pick");
+            //        break;
+            //    default:
+            //        Console.WriteLine("never heard of it");
+            //        break;
+            //}
             #endregion
+
+            #region task2 question 4
+            int pages = 464;
+            string sizeLabel = (pages > 300) ? "long book" : "short book";
+            Console.WriteLine(sizeLabel);
+            #endregion
+
 
         }
     }
