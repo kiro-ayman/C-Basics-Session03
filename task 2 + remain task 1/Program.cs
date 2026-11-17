@@ -155,9 +155,17 @@ namespace task_2___remain_task_1
             #endregion
 
             #region task2 question 4
-            int pages = 464;
-            string sizeLabel = (pages > 300) ? "long book" : "short book";
-            Console.WriteLine(sizeLabel);
+            //int pages = 464;
+            //string sizeLabel = (pages > 300) ? "long book" : "short book";
+            //Console.WriteLine(sizeLabel);
+            #endregion
+
+            #region task2 question 5
+            string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
+            for (int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine( $"{i + 1}) {books[i]}");
+            }
             #endregion
 
 
