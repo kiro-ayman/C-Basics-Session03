@@ -179,12 +179,20 @@ namespace task_2___remain_task_1
             #endregion
 
             #region task2 question 7
-            int i = 0;
-            do { 
-                Console.WriteLine("checking book");
-                i++;
-            } while (i<3);
+            //int i = 0;
+            //do { 
+            //    Console.WriteLine("checking book");
+            //    i++;
+            //} while (i<3);
 
+            #endregion
+
+            #region task2 question 8
+            string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
+            foreach(string book in books)
+            {
+                Console.WriteLine(book);
+            }
             #endregion
 
         }
