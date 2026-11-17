@@ -169,15 +169,23 @@ namespace task_2___remain_task_1
             #endregion
 
             #region  task2 question 6
-            string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
-            int i = 0;
-            while ( i < books.Length )
-            {
-                Console.WriteLine($"{i + 1}) {books[i]}");
-                i++;
-            }
+            //string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
+            //int i = 0;
+            //while ( i < books.Length )
+            //{
+            //    Console.WriteLine($"{i + 1}) {books[i]}");
+            //    i++;
+            //}
             #endregion
 
+            #region task2 question 7
+            int i = 0;
+            do { 
+                Console.WriteLine("checking book");
+                i++;
+            } while (i<3);
+
+            #endregion
 
         }
     }
