@@ -196,17 +196,28 @@ namespace task_2___remain_task_1
             #endregion
 
             #region task2 question 9
+            //string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
+            //foreach (string book in books)
+            //{
+            //    if(book == "refactoring")
+            //    {
+            //        break;
+            //    }
+            //    Console.WriteLine(book);
+            //}
+            #endregion
+
+            #region task2 question 10
             string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
             foreach (string book in books)
             {
-                if(book == "refactoring")
+                if (book == "the Pragmatic Programmer")
                 {
-                    break;
+                    continue;
                 }
                 Console.WriteLine(book);
             }
             #endregion
-
         }
     }
 }
