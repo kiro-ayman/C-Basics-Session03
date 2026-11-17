@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Headers;
+using System.Reflection.Metadata.Ecma335;
 
 namespace task_2___remain_task_1
 {
@@ -208,16 +209,35 @@ namespace task_2___remain_task_1
             #endregion
 
             #region task2 question 10
-            string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
-            foreach (string book in books)
-            {
-                if (book == "the Pragmatic Programmer")
-                {
-                    continue;
-                }
-                Console.WriteLine(book);
-            }
+            //string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
+            //foreach (string book in books)
+            //{
+            //    if (book == "the Pragmatic Programmer")
+            //    {
+            //        continue;
+            //    }
+            //    Console.WriteLine(book);
+            //}
             #endregion
+
+            #region task2 question 11
+            string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
+            
+            void PrintBooks(string[] books)
+            {
+                if (books.Length == 0)
+                {
+                    return;
+                }
+                Console.WriteLine(books[0]);
+            }
+            PrintBooks(books);
+            string[] emptyBooks = { };
+            PrintBooks(emptyBooks);
+
+
+            #endregion
+
         }
     }
 }
