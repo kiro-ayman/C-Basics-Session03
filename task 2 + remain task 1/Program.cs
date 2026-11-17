@@ -98,9 +98,35 @@ namespace task_2___remain_task_1
             #endregion
 
             #region task1 question 15
-            string? name = "ahmed";
-            string confirmedName = name!;
-            
+            //string? name = "ahmed";
+            //string confirmedName = name!;
+
+
+            #endregion
+
+
+            //    // draft
+            //    int x = 5;
+            //    goto check;
+            //    Console.WriteLine("this line will not be executed");
+            //check:
+            //    Console.WriteLine(x);
+
+
+
+            #region task2 question 1
+             // Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than
+             //300, otherwise prints "Short Book".
+
+            int pages = 464;
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
 
             #endregion
 
