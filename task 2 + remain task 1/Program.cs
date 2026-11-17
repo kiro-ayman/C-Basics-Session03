@@ -115,19 +115,28 @@ namespace task_2___remain_task_1
 
 
             #region task2 question 1
-             // Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than
-             //300, otherwise prints "Short Book".
+            // Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than
+            //300, otherwise prints "Short Book".
 
+            //int pages = 464;
+            //if (pages > 300)
+            //{
+            //    Console.WriteLine("Long Book");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Short Book");
+            //}
+
+            #endregion
+
+            #region task2 question 2
             int pages = 464;
-            if (pages > 300)
+            bool isAvailable = true;
+            if (pages > 300 && isAvailable)
             {
-                Console.WriteLine("Long Book");
+                Console.WriteLine("You can borrow this book");
             }
-            else
-            {
-                Console.WriteLine("Short Book");
-            }
-
             #endregion
 
         }
