@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Headers;
 using System.Reflection.Metadata.Ecma335;
+using System.Text;
 
 namespace task_2___remain_task_1
 {
@@ -81,7 +82,11 @@ namespace task_2___remain_task_1
             //Console.WriteLine(book ?.Title); // null
             //Book book2 = new Book();
             //Console.WriteLine(book2.Title);
+
+
+
             ////draft
+
             ////Console.WriteLine(book!.Title); // nullreference exception
             ////Console.WriteLine(book.Title); // nullreference exception
 
@@ -116,6 +121,55 @@ namespace task_2___remain_task_1
 
 
             #region task2 question 1
+            //string title = "clean code";
+            //string upperTitle = title.ToUpper();
+            //Console.WriteLine(title);
+            //Console.WriteLine(upperTitle);
+            #endregion
+
+            #region task2 question 2
+            //string s1="clean code";
+            //string s2 = "clean code";
+            //Console.WriteLine(Object.ReferenceEquals(s1, s2));
+            #endregion
+
+            #region task2 question 3
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("book list");
+            //sb.Append(" - updated");
+            //Console.WriteLine(sb);
+            #endregion
+
+            #region task2 question 4
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("book list");
+            //sb.Append(" - updated");
+            //sb.Replace("book list", "library");
+
+            //Console.WriteLine(sb);
+            #endregion
+
+            #region task2 question 5
+            //string title = "clean code";
+            //int pages = 464;
+            //Console.WriteLine("book:" + title + ", pages:" + pages);
+            #endregion
+
+            #region task2 question 6
+            //string title = "clean code";
+            //int pages = 464;
+            //Console.WriteLine($"book: {title}, pages: {pages}" );
+
+            #endregion
+
+            #region task2 question 7
+            string title = "clean code";
+            int pages = 464;
+            Console.WriteLine(string.Format("book: {0}, pages: {1}", title, pages));
+
+            #endregion
+
+            #region task2 question 8
             // Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than
             //300, otherwise prints "Short Book".
 
@@ -131,7 +185,7 @@ namespace task_2___remain_task_1
 
             #endregion
 
-            #region task2 question 2
+            #region task2 question 9
             //int pages = 464;
             //bool isAvailable = true;
             //if (pages > 300 && isAvailable)
@@ -140,7 +194,7 @@ namespace task_2___remain_task_1
             //}
             #endregion
 
-            #region task2 question 3
+            #region task2 question 10
             //string title = "refactoring";
             //switch(title){
             //    case "clean code":
@@ -155,13 +209,13 @@ namespace task_2___remain_task_1
             //}
             #endregion
 
-            #region task2 question 4
+            #region task2 question 11
             //int pages = 464;
             //string sizeLabel = (pages > 300) ? "long book" : "short book";
             //Console.WriteLine(sizeLabel);
             #endregion
 
-            #region task2 question 5
+            #region task2 question 12
             //string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
             //for (int i = 0; i < books.Length; i++)
             //{
@@ -169,7 +223,7 @@ namespace task_2___remain_task_1
             //}
             #endregion
 
-            #region  task2 question 6
+            #region  task2 question 13
             //string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
             //int i = 0;
             //while ( i < books.Length )
@@ -179,7 +233,7 @@ namespace task_2___remain_task_1
             //}
             #endregion
 
-            #region task2 question 7
+            #region task2 question 14
             //int i = 0;
             //do { 
             //    Console.WriteLine("checking book");
@@ -188,7 +242,7 @@ namespace task_2___remain_task_1
 
             #endregion
 
-            #region task2 question 8
+            #region task2 question 15
             //string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
             //foreach(string book in books)
             //{
@@ -196,7 +250,7 @@ namespace task_2___remain_task_1
             //}
             #endregion
 
-            #region task2 question 9
+            #region task2 question 16
             //string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
             //foreach (string book in books)
             //{
@@ -208,7 +262,7 @@ namespace task_2___remain_task_1
             //}
             #endregion
 
-            #region task2 question 10
+            #region task2 question 17
             //string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
             //foreach (string book in books)
             //{
@@ -220,23 +274,25 @@ namespace task_2___remain_task_1
             //}
             #endregion
 
-            #region task2 question 11
-            string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
-            
-            void PrintBooks(string[] books)
-            {
-                if (books.Length == 0)
-                {
-                    return;
-                }
-                Console.WriteLine(books[0]);
-            }
-            PrintBooks(books);
-            string[] emptyBooks = { };
-            PrintBooks(emptyBooks);
+            #region task2 question 18
+            //string[] books = { "clean code", "the Pragmatic Programmer", "refactoring" };
+
+            //void PrintBooks(string[] books)
+            //{
+            //    if (books.Length == 0)
+            //    {
+            //        return;
+            //    }
+            //    Console.WriteLine(books[0]);
+            //}
+            //PrintBooks(books);
+            //string[] emptyBooks = { };
+            //PrintBooks(emptyBooks);
 
 
             #endregion
+
+
 
         }
     }
